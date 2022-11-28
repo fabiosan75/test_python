@@ -2,10 +2,10 @@ import random
 
 options = ('piedra','papel','tijera')
 num_games = 0
-max_games = 4
+max_games = 3
 primos = [2,3,5,7,11,13,17,19,23,29,31,37,41]
 print(primos[3:10:2])
-'''
+
 while num_games <= max_games:
   user_option = input('Digite su opcion : ')
 
@@ -37,6 +37,6 @@ while num_games <= max_games:
           
   num_games += 1
       
-   '''   
+     
         
 
